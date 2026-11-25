@@ -39,11 +39,11 @@ Your token stays on your Mac. It's never uploaded anywhere except to Productive 
 
 | Button | What it does |
 | --- | --- |
-| **Done.** | Checks Productive. Not hit your daily goal yet? It calls you out and comes back in 15 minutes. |
+| **Done.** | Checks Productive. Behind for this time of day? It calls you out and comes back in 15 minutes. |
 | **On it!** | Opens your Productive timesheet. |
-| **Snooze.** | Back in 15 minutes, and a bit crosser each time. |
+| **Snooze.** | Back in 15 minutes, and a bit crosser each time. (If you opened it yourself with **shout at me now**, this says **Dismiss.** instead and just closes.) |
 
-Hit your daily goal before it's due to shout and you get a well done instead.
+Hit your daily goal before it's due to shout and you get a well done instead. It also knows your working hours: if you're within an hour of where you should be for the time of day (allowing 30 minutes for lunch), it won't tell you off.
 
 Want it gone? Click the gremlin, or its icon in your menu bar, to send it away.
 
@@ -54,6 +54,7 @@ It keeps quiet when Focus or Do Not Disturb is on, when your mic or camera is in
 Out of the box it shouts at 4:30pm on weekdays (skipping UK bank holidays), with a daily goal of 7.5 hours. Click the gremlin in your menu bar, then **settings**, to change any of that. You can set:
 
 - what times it shouts (add as many as you like)
+- your working hours (start and finish)
 - which days, and whether to skip UK bank holidays
 - what **On it!** opens
 - its noise, or turn the noise off
