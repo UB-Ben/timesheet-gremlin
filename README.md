@@ -49,10 +49,10 @@ It keeps quiet when Focus or Do Not Disturb is on, when your mic or camera is in
 
 ## Settings
 
-Out of the box it shouts at 4:45 on weekdays, with a daily goal of 7.5 hours. Click the gremlin in your menu bar, then **settings**, to change any of that. You can set:
+Out of the box it shouts at 4:30pm on weekdays (skipping UK bank holidays), with a daily goal of 7.5 hours. Click the gremlin in your menu bar, then **settings**, to change any of that. You can set:
 
 - what times it shouts (add as many as you like)
-- which days
+- which days, and whether to skip UK bank holidays
 - what **On it!** opens
 - its noise, or turn the noise off
 - its colour
