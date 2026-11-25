@@ -1,0 +1,13 @@
+# Never commit secrets or local clutter to this public repo.
+.env
+.env.*
+*.p8
+*.p12
+*.pem
+*.key
+*.keychain*
+*.mobileprovision
+*token*
+*.zip
+dist/
+.DS_Store
