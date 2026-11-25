@@ -2,7 +2,7 @@
 
 <h1 align="center">Timesheet Gremlin</h1>
 
-<p align="center">A little pixel gremlin that pops up at 4:45 on weekdays and shouts at you until your Productive timesheet is done.<br>It stays quiet when you're in a Focus mode or on a call.</p>
+<p align="center">A little pixel gremlin that shouts at you until your timesheets are done.<br>It stays quiet when you're in a Focus mode or on a call.</p>
 
 <p align="center"><img src="assets/popup.png" width="420" alt="The gremlin shouting: OI! IT'S 4:45. TIMESHEETS. NOW."></p>
 
