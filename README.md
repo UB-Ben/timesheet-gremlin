@@ -61,7 +61,13 @@ Out of the box it shouts at 4:30pm on weekdays (skipping UK bank holidays), with
 
 ## Updates
 
-The gremlin updates itself quietly, checking for a new version every few hours. To see which version you're on, or to check straight away, open **settings**: the version (v1, v2, v3...) sits next to **Check for updates**.
+The gremlin updates itself quietly, checking for a new version every few hours. To see which version you're on, or to update straight away, open **settings**: the version (v1, v2, v3...) is under **Install updates** at the top.
+
+Or upgrade from Terminal (your settings and token are kept):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/UB-Ben/timesheet-gremlin/main/install.sh | zsh
+```
 
 ## Uninstall
 

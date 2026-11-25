@@ -1,9 +1,11 @@
 #!/bin/zsh
-# Installs (or reinstalls) the latest Timesheet Gremlin into ~/Applications and opens it.
+# Installs or upgrades to the latest Timesheet Gremlin in ~/Applications and opens it.
+# Settings and your Productive token are kept.
 # No admin password needed. Safe to run again at any time.
 set -e
 REPO="UB-Ben/timesheet-gremlin"
 APP="$HOME/Applications/Timesheet Gremlin.app"
+FIRST_INSTALL=1; [ -d "$APP" ] && FIRST_INSTALL=0
 
 if [ "$(uname -m)" != "arm64" ]; then
   echo "Sorry, the Timesheet Gremlin only runs on Apple Silicon Macs (M1 or newer)."; exit 1
@@ -25,5 +27,10 @@ mv "$TMP/x/Timesheet Gremlin.app" "$APP"
 xattr -dr com.apple.quarantine "$APP" 2>/dev/null || true
 
 open "$APP"
-open "https://github.com/$REPO#readme"
-echo "Done! The gremlin should say hello in a moment. Follow the README to add your Productive token."
+VERSION=$(defaults read "$APP/Contents/Info" CFBundleVersion 2>/dev/null || echo "?")
+if [ "$FIRST_INSTALL" = 1 ]; then
+  open "https://github.com/$REPO#readme"
+  echo "Done! Installed v$VERSION. The gremlin should say hello in a moment. Follow the README to add your Productive token."
+else
+  echo "Done! The gremlin is now on v$VERSION. Your settings and token are unchanged."
+fi
