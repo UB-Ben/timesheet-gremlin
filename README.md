@@ -63,7 +63,7 @@ Out of the box it shouts at 4:30pm on weekdays (skipping UK bank holidays), with
 
 ## Updates
 
-The gremlin updates itself quietly, checking for a new version every hour. To see which version you're on, or to update straight away, open **settings**: the version (v1, v2, v3...) is under **Install updates** at the top.
+The gremlin updates itself quietly, checking for a new version every hour. Every update is signed with a key that's kept offline, away from GitHub, and the gremlin checks that signature before installing anything. If an update doesn't check out, it keeps the version you have. To see which version you're on, or to update straight away, open **settings**: the version (v1.15, v1.16 and so on) is under **Install updates** at the top.
 
 Or upgrade from Terminal (your settings and token are kept):
 
