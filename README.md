@@ -45,6 +45,8 @@ Your token stays on your Mac. It's never uploaded anywhere except to Productive 
 
 Hit your daily goal before it's due to shout and you get a well done instead.
 
+Want it gone? Click the gremlin, or its icon in your menu bar, to send it away.
+
 It keeps quiet when Focus or Do Not Disturb is on, when your mic or camera is in use, and when your screen is locked. It waits and tries again for up to 2 hours.
 
 ## Settings
