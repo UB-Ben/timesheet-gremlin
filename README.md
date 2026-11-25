@@ -43,7 +43,7 @@ Your token stays on your Mac. It's never uploaded anywhere except to Productive 
 | **On it!** | Opens your Productive timesheet. |
 | **Snooze.** | Back in 15 minutes, and a bit crosser each time. (If you opened it yourself with **shout at me now**, this says **Dismiss.** instead and just closes.) |
 
-Hit your daily goal before it's due to shout and you get a well done instead. It also knows your working hours: if you're within an hour of where you should be for the time of day (allowing 30 minutes for lunch), it won't tell you off.
+Hit your daily goal before it's due to shout and you get a well done instead. It also knows your working hours: if you're within two hours of where you should be for the time of day (allowing 30 minutes for lunch), it won't tell you off.
 
 Want it gone? Click the gremlin, or its icon in your menu bar, to send it away.
 
