@@ -61,7 +61,7 @@ Out of the box it shouts at 4:30pm on weekdays (skipping UK bank holidays), with
 
 ## Updates
 
-The gremlin updates itself. It checks for a new version every few hours and announces when it's had an upgrade. To check straight away, open **settings** and click **Check for updates**.
+The gremlin updates itself quietly, checking for a new version every few hours. To see which version you're on, or to check straight away, open **settings**: the version (v1, v2, v3...) sits next to **Check for updates**.
 
 ## Uninstall
 
