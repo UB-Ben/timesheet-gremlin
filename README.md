@@ -57,6 +57,7 @@ Out of the box it shouts at 4:30pm on weekdays (skipping UK bank holidays), with
 - your working hours (start and finish)
 - which days, and whether to skip UK bank holidays
 - what **On it!** opens
+- how rude it is: 1 Polite, 2 Grumpy or 3 Rude (Rude swears)
 - its noise, or turn the noise off
 - its colour
 - your daily goal in hours, and your Productive token
